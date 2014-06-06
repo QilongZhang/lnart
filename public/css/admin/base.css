@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+#item {
+	display:block;
+	float:left;
+}
+#item li {
+	color:blue;
+	display:block;
+	float:left;
+	margin-left:5px;
+}

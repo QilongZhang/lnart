@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*beginning of head and foot*/
+.head {
+	padding-top:320px;
+	width: 966px;
+	margin:0 auto;
+}
+.header_zzjs {
+	width: 966px;
+	height:35px;
+	background:url(../images/nav_bg.png) repeat-x scroll;
+}
+.headt {
+	font-size: 14px;
+	color:#eaeaea;
+}
+.headt img {
+	vertical-align:middle;
+	margin-right:15px;
+}
+.headt a {
+	color:#eaeaea;
+	margin:0 8px;
+}
+.headt a:hover {
+	margin:0 8px;
+}
+.head ul {
+}
+.head li {
+	float:left;
+	height:35px;
+}
+.head li a {
+	text-align:center;
+	display:block;
+	font:"微软雅黑";
+	font-size:16px;
+	color:#fff;
+	height:35px;
+	width:138px;
+	line-height:30px;
+}
+.head li a:hover {
+	display:block;
+	font:"微软雅黑";
+	font-size:16px;
+	color:#dde0e3;
+	height:35px;
+	weight:138px;
+	background:url(../images/nav_bg_hover.png) repeat-x scroll;
+}
+#zzjs_nav2 {
+	margin-left:140px;
+}
+#zzjs_nav3 {
+	margin-left:278px;
+}
+#zzjs_nav4 {
+	margin-left:416px;
+}
+#zzjs_nav5 {
+	margin-left:554px;
+}
+#zzjs_nav6 {
+	margin-left:660px;
+}
+#zzjs_nav7 {
+	margin-left:720px;
+}
+
+
+#foot {
+	margin-top:40px;
+	text-align:center;
+}
+#foot span {
+	color:#93a0a8;
+	margin:0 15px;
+}
+/*end of head and foot*/
+#mainpage{
+	clear:both;
+	width:966px;
+	margin:0 auto;
+	margin-top:20px;
+	background:#d7d7d7;
+}

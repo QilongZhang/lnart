@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>高考在线</title>
+<link href="css/reset.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/share.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/table.css" type="text/css" rel="stylesheet" media="screen"/>
+<link href="css/scoller.css" type="text/css" rel="stylesheet" media="screen"/>
+<script src="js/tab.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jsScroller.js"></script>
+<script type="text/javascript" src="js/jsScrollbar.js"></script>
+<script type="text/javascript">
+var scroller  = null;
+var scrollbar = null;
+window.onload = function () {
+  scroller  = new jsScroller(document.getElementById("Scroller-1"), 400, 200);
+  scrollbar = new jsScrollbar (document.getElementById("Scrollbar-Container"), scroller, false);
+}
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+function fetch_object(idname)
+{
+ var my_obj = document.getElementById(idname);
+ return my_obj;
+}
+function toggle_nav(obj)
+{
+ for (i = 1; i<= 9; i++ )
+ {
+  var sub_nav = fetch_object("zzjs_nav" + i);
+  var sub_nav_index = fetch_object("zzjs_nav0");
+  sub_nav_index.style.display = "none";
+  if (obj == i)
+  {
+   sub_nav.style.display = "block";
+  }
+  else
+  {
+   sub_nav.style.display = "none";
+  }
+ }
+}
+</script>
+{include file="./index_bar.html"}
+
+	<div id="mainpage">
+		<div id="content"><!-- 钱钱编辑的 -->
+			<div>
+				<div id="table_left">
+					<div id="biaoti_b">
+						<b>方向标</b>
+					</div>
+					<div id="biaoti_li">
+						<ul>
+						<li id="one1" onclick="setTab('one',1,2)"><a class="liebiao" style="cursor:pointer">高考天地</a></li>
+						<li id="one2" onclick="setTab('one',2,2)"><a class="liebiao" style="cursor:pointer">高考题库</a></li>
+						</ul>
+					</div>
+					<div class="nbsp_bg">&nbsp;</div>
+				</div>
+				<div id="table_right">
+					<div id="one_con1">
+						<div id="table_t">
+							<b id="table_b">高考天地<h1>您现在的位置&gt;高考天地</h1></b>
+						</div>
+						<div id="table_u">
+							<p id="table_p">标题<span class="table_span">发表日期</span></p>
+							<ul>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考天地高考天地高考天地高考天地高考天地</a><span class="table_span">2011-3-2</span></li>
+							</ul>
+						</div>
+					</div>
+					<div id="one_con1" style="display:none;">
+						<div id="table_t">
+							<b id="table_b">高考题库<h1>您现在的位置&gt;高考题库</h1></b>
+						</div>
+						<div id="table_u">
+							<p id="table_p">标题<span class="table_span">发表日期</span></p>
+							<ul>
+							<li><a class="table_content" style="cursor:pointer">高考题库高考题库高考题库高考题库高考题库</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考题库高考题库高考题库高考题库高考题库</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考题库高考题库高考题库高考题库高考题库</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考题库高考题库高考在线高考在线高考在线</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考在线高考在线高考在线高考在线高考在线</a><span class="table_span">2011-3-2</span></li>
+							<li><a class="table_content" style="cursor:pointer">高考在线高考在线高考在线高考在线高考在线</a><span class="table_span">2011-3-2</span></li>
+							</ul>
+						</div>
+					</div>
+					<div id="table_nbsp">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

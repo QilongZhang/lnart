@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*tableÄÚÈÝ¿ªÊ¼*/
+#mid_body{
+	width:966px;
+	min-height:350px;
+}
+#table_left{
+    position:relative;
+    width:243px;
+	margin:0;
+	margin-top:20px;
+	padding:0;
+	border:0;
+	float:left;
+}
+#biaoti_b{
+	padding:0;
+	width:243px;
+	height:39px;
+	background:url("../images/biaoti_bg.png") no-repeat scroll transparent;text-indent:2em;
+}
+#biaoti_b b{
+	font-size:14px;
+	color:#333;
+	font-family:Tahoma;
+	line-height:36px;
+}
+#biaoti_li{
+    width:243px;
+	background:url("../images/bj.png") repeat scroll transparent;
+	margin:0;
+	padding:0;
+}
+#biaoti_li li a{
+    font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	font-weight:bold;
+	line-height:40px;
+	color:#000000;
+	text-align:center;
+	padding:8px 91px 8px 91px;
+}
+#biaoti_li a.liebiao:hover{
+    background:url("../images/youbiao.png") no-repeat scroll transparent;
+}
+#table_left div.nbsp_bg{
+    width:243px;
+	height:19px;
+	background:url("../images/biaoti_bg.png") no-repeat left bottom scroll transparent;
+}
+#table_right{
+    width:680px;
+	height:250px;
+	margin-top:20px;
+	padding:0;
+	border:0;
+	float:right;
+}
+#table_t{
+	background:url("../images/table_bg.png") no-repeat scroll transparent;
+	width:680px;
+	height:43px;
+}
+#table_u{
+	background:url("../images/bj.png") repeat scroll transparent;
+	width:680px;
+}
+#table_u a.table_content{
+    background:url("../images/dian.png") no-repeat scroll transparent;
+}
+#table_nbsp{
+	background:url("../images/table_bg.png") no-repeat left bottom scroll transparent;
+	width:680px;
+	height:27px;
+}
+#table_right b{
+	width:400px;
+	line-height:30px;
+	padding-left:15px;
+}
+#table_right p{
+    font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	line-height:24px;
+	color:#FFFFFF;
+	text-indent:2em;
+	padding:0 2em;
+}
+#table_b h1{
+    margin:0;
+    font-size:12px;
+	color:#555555;
+	font-style:normal;
+	padding-right:12px;
+	float:right;
+}
+#table_b2{
+    font-family:"Î¢ÈíÑÅºÚ";
+	font-size:14px;
+	line-height:24px;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin-bottom:20px;
+	text-align:center;
+}
+#table_p{
+    font-size:12px;
+	color:#FFFFFF;
+	line-height:20px;
+}
+#table_t a.TJ_link{
+     font-family:"Î¢ÈíÑÅºÚ";
+	 font-size:14px;
+	 font-weight:400;
+	 color:#FFFFFF;
+	 line-height:35px;
+	 float:left;
+}
+#table_right li{
+     margin-left:20px;
+}
+#table_right li a{
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:25px;
+	padding-left:25px;
+}
+.table_span{
+	font-size:12px;
+	color:#555555;
+	float:right;
+	padding-right:50px;
+}
+
+
+#photo_flash{
+   margin-top: 30px;
+   padding: 0;
+   border: 0;
+   color: #000000;
+   font-family: helvetica, sans-serif;
+   font-weight: normal;
+   font-size: 12px;
+   text-align: center;
+}
+#photo_flash img {
+   border:0;
+   width:100px;
+   height:100px;
+}
+
+
+#main .photoblock-many {		/* A general full-width photo block (that clears), for many thumbnails */
+   margin: 0 10px 10px -4px;
+   clear: both;
+   width: 100%;
+   text-align: center;
+   font-size: 10px;
+   color: #888888;
+}

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.Container {
+	position: absolute;
+	width: 458px;
+	height: 174px;
+	background:url(../images/right.png);
+	margin-left:6px;
+	margin-top:10px;
+}
+#Scroller-1 {
+	position: absolute;
+	overflow: hidden;
+	width: 458px;
+	height: 174px;
+}
+.Scroller-Container {
+	position: absolute;
+}
+.Scrollbar-Track {
+	float:right;
+	width: 8px;
+	height: 120px;
+	margin-top:30px;
+	margin-right:20px;
+	position:relative;
+	background-color: #124f6e;
+}
+.Scrollbar-Handle {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	height: 17px;
+	background:url(../images/hand.png);
+}

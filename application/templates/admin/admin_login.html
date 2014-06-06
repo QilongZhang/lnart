@@ -1,0 +1,28 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>管理员窗口</title>
+</head>
+<body>
+{include file="./admin/admin_header.html"}
+<form method="post" action="{$base}/admin/login/submit">
+	<table>
+		<tr>
+			<td colspan="2"><h4>管理员登陆</h4></td>
+		</tr>
+		<tr>
+			<td>管理员名称:</td>
+			<td><input type="text" name="username" id="username"/></td>
+		</tr>
+		<tr>
+			<td>密码:</td>
+			<td><input type="password" name="password" id="password"/></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="submit" value="登陆"/></td>
+		</tr>
+	</table>
+</form>
+{include file="./admin/admin_footer.html"}
+</body>
+</html>
